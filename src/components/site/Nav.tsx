@@ -36,11 +36,11 @@ export function Nav() {
           <img src={megaLogo} alt="MEGA logo" className="h-10 w-auto" />
         </Link>
         <div className="hidden lg:flex items-center gap-3 text-sm">
-          <Link to="/about" className="inline-flex items-center gap-2 rounded-full bg-ivory/[0.06] border border-ivory/10 px-5 py-2 text-ivory/70 hover:text-ivory hover:bg-ink/50 hover:border-gold/30 transition-all">About</Link>
           <Link to="/capabilities" className="inline-flex items-center gap-2 rounded-full bg-ivory/[0.06] border border-ivory/10 px-5 py-2 text-ivory/70 hover:text-ivory hover:bg-ink/50 hover:border-gold/30 transition-all">{t("nav.capabilities")}</Link>
           <a href="#partnerships" className="inline-flex items-center gap-2 rounded-full bg-ivory/[0.06] border border-ivory/10 px-5 py-2 text-ivory/70 hover:text-ivory hover:bg-ink/50 hover:border-gold/30 transition-all">{t("nav.partnerships")}</a>
-          <a href="#impact" className="inline-flex items-center gap-2 rounded-full bg-ivory/[0.06] border border-ivory/10 px-5 py-2 text-ivory/70 hover:text-ivory hover:bg-ink/50 hover:border-gold/30 transition-all">{t("nav.impact")}</a>
+          <Link to="/about" className="inline-flex items-center gap-2 rounded-full bg-ivory/[0.06] border border-ivory/10 px-5 py-2 text-ivory/70 hover:text-ivory hover:bg-ink/50 hover:border-gold/30 transition-all">About Us</Link>
           <a href="#insights" className="inline-flex items-center gap-2 rounded-full bg-ivory/[0.06] border border-ivory/10 px-5 py-2 text-ivory/70 hover:text-ivory hover:bg-ink/50 hover:border-gold/30 transition-all">{t("nav.insights")}</a>
+    
           <a
             href="#contact"
             className="group inline-flex items-center gap-2 rounded-full bg-[#D1CBBA] px-5 py-2.5 text-sm text-ink hover:bg-[#C5BFAD] transition-all shadow-soft"
